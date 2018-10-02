@@ -78,7 +78,7 @@ zoo.basket1<-as.zoo(basket)
 basket1<-cbind(comb13,comb14,comb15,comb16,comb17,comb18,comb19,comb20,comb21,comb22,comb23,comb24)
 xrange<-range(0:12)
 tsRainbow<-rainbow(ncol(zoo.basket2))
-plot(x=zoo.basket1,col=tsRainbow,screens=1,xlim=c(0,12),xaxt="n",xlab="25°C with all combinations",ylab="pH")
+plot(x=zoo.basket1,col=tsRainbow,screens=1,xlim=c(0,12),xaxt="n",xlab="25Â°C with all combinations",ylab="pH")
 legend(x="bottomleft",legend=c("0M:1L","0M:2L","0M:3L","1M:1L","1M:2L","1M3L","2M:1L","2M:2L","2M:3L","3M:1L","3M:2L","3M:3L"),lty=2,col=tsRainbow,cex=0.5)
 
 xtick<-seq(from=0,to=,by=)
